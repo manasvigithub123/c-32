@@ -47,7 +47,7 @@ function setup(){
 }
 
 function draw(){
-    if (backgroundImg)
+    if (backgroundImg){
     background(backgroundImg);
     Engine.update(engine);
     //strokeWeight(4);
@@ -70,7 +70,7 @@ function draw(){
     platform.display();
     //log6.display();
     slingshot.display();    
-}
+}}
 
 function mouseDragged(){
     if (gameState!=="launched"){
